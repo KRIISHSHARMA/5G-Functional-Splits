@@ -39,7 +39,7 @@
 
 ## WHAT TO CHOOSE ?
 - When you have something like split 8  you need more real time and an ideal backhaul (fiber)
-- wheras if your looking at split 2 you can have non-ideal delay so you could have something like a microwave and dont need to have fiber
+- Whereas if your looking at split 2 you can have non-ideal delay so you could have something like a microwave and dont need to have fiber
 
 ![Screenshot from 2023-12-23 17-57-46](https://github.com/KRIISHSHARMA/5G-Functional-Splits/assets/86760658/7276305e-3477-47a7-94a8-975d5dcf14eb)
 
