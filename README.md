@@ -15,3 +15,25 @@
 
 ![image](https://github.com/KRIISHSHARMA/5G-Functional-Splits/assets/86760658/643b4d89-7846-4681-9031-3c584980ad00)
 ![image](https://github.com/KRIISHSHARMA/5G-Functional-Splits/assets/86760658/46d91f08-3c77-4975-9166-8ce4506e4aae)
+
+
+## FUNCTIONAL SPLITS
+- Split 2: RRC/PDCP split : Radio resource control and packet data convergence control are split from the Layer 2 radio link control (RLC)
+  1. Variant 1: RRC, service data adaptation protocol (SDAP) & PDCP in the same central unit as one entity; no control and user split. RLC, medium access control (MAC), and high physical layer will be part of the DU, and the low physical layer along with the RF are in the DU.
+  2. Variant 2: In addition to Variant 1, this split option comes with control and user split like in a CU-CP and CU-UP. RRC along with PDCP-C will be part of CU-CP, and the SDAP/PDCP-U will be associated with CU-UP.
+  3. [more](https://www.rcrwireless.com/20210317/5g/exploring-functional-splits-in-5g-ran-tradeoffs-and-use-cases-reader-forum)
+  4. Split 2 – use cases: Ideal use cases include scenarios where a low fronthaul bitrate is necessary to be transported over a less ideal fronthaul interface, where higher security and resiliency is obtained by CP/UP separation.
+    
+- Split 6: MAC/PHY layer split. The MAC, RLC and upper layers will be part of the central unit (CU). There is no Low PHY/High PHY split; instead the full stack of the PHY layer and the RF are in the DU/RU.
+- Split 6 – use cases: The ideal use cases are scenarios where only centralized scheduling is required. It is best suited for small cell fem-to-cell like deployment as well as where heterogeneous backhaul and fronthaul with variable performance is available and the cost to cater for different small cells is needed.
+
+- Split 7.2x: Low PHY/High PHY split. The Low PHY/High PHY split is the most acceptable approach for it is less complex and it supports various fronthaul requirements and most importantly it has high virtualization benefits. This split has been further optimized by the O-RAN Alliance into two variants: split 7.2a and split 7.2b. Split 7.2x comes with fronthaul compression techniques like BFP IQ compression and de-compression to further reduce transport bandwidth.
+
+![image](https://github.com/KRIISHSHARMA/5G-Functional-Splits/assets/86760658/3f9047ba-8fce-45c6-87a7-11d58d84d244)
+
+- Split 7.2x – use cases: Scenarios where an ideal fronthaul is possible for URLLC and carrier aggregation, presence of [eCPRI](https://www.5gworldpro.com/blog/2022/12/21/what-is-the-importance-of-ecpri-in-5g/) and common scheduler for deployment like virtualized local data centers. It supports use cases where efficient resource utilization from multi-RAT and multi-connectivity is needed.
+
+![Parallel_Fig07-768x362](https://github.com/KRIISHSHARMA/5G-Functional-Splits/assets/86760658/233ad1bc-93d4-4a0d-aee8-6361e56222dc)
+![image](https://github.com/KRIISHSHARMA/5G-Functional-Splits/assets/86760658/213037af-e8f6-42e3-bf6d-47096f819994)
+
+
