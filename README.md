@@ -46,3 +46,7 @@
 ## MMWAVE
 ![image](https://github.com/KRIISHSHARMA/5G-Functional-Splits/assets/86760658/68b18fdb-1ec2-428e-ae09-010714064d15)
 
+## REFERENCE 
+- [video resource](https://www.youtube.com/watch?v=hMwRT7mPcLw)
+- [blog resource](https://www.rcrwireless.com/20210317/5g/exploring-functional-splits-in-5g-ran-tradeoffs-and-use-cases-reader-forum)
+- [another](https://www.5gtechnologyworld.com/open-ran-functional-splits-explained/)
