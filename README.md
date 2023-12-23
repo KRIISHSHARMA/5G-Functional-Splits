@@ -35,5 +35,14 @@
 
 ![Parallel_Fig07-768x362](https://github.com/KRIISHSHARMA/5G-Functional-Splits/assets/86760658/233ad1bc-93d4-4a0d-aee8-6361e56222dc)
 ![image](https://github.com/KRIISHSHARMA/5G-Functional-Splits/assets/86760658/213037af-e8f6-42e3-bf6d-47096f819994)
+![image](https://github.com/KRIISHSHARMA/5G-Functional-Splits/assets/86760658/1b786efd-273c-4425-afb5-f7b8afa8fcd7)
 
+## WHAT TO CHOOSE ?
+- When you have something like split 8  you need more real time and an ideal backhaul (fiber)
+- wheras if your looking at split 2 you can have non-ideal delay so you could have something like a microwave and dont need to have fiber
+
+![Screenshot from 2023-12-23 17-57-46](https://github.com/KRIISHSHARMA/5G-Functional-Splits/assets/86760658/7276305e-3477-47a7-94a8-975d5dcf14eb)
+
+## MMWAVE
+![image](https://github.com/KRIISHSHARMA/5G-Functional-Splits/assets/86760658/68b18fdb-1ec2-428e-ae09-010714064d15)
 
